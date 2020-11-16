@@ -29,7 +29,7 @@ See
 SleepyGary is named after an alien parasite that spreads itself by infecting
 the memories of hosts.
 
-SleepyGary will (by default) not sleep until failure() is caused.  It then does
+SleepyGary will (by default) not sleep until failure() is called.  It then does
 an exponetial backoff until a success().  It calculates how many successes there
 were from the first success() to the first success() after the last failure().
 
