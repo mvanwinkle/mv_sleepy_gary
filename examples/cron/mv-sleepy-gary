@@ -1,0 +1,5 @@
+SHELL=/bin/bash
+PATH=/sbin:/bin:/usr/sbin:/usr/bin
+MAILTO=root@localhost
+
+# 50 6 * * * iasnetauto /opt/IAS/bin/mv-sleepy-gary/mv-sleepy-gary_hello.sh

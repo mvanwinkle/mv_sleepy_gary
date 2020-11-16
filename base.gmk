@@ -1,0 +1,11 @@
+# Advanced Usage
+# You don't need to edit this file unless you are an advanced user.
+
+ifeq ($(ARTIFACT_BASE_NAME),)
+	ARTIFACT_BASE_NAME = mv-sleepy-gary
+endif
+
+ifeq ($(ARTIFACT_NAME),)
+	ARTIFACT_NAME = mv-sleepy-gary
+endif
+
